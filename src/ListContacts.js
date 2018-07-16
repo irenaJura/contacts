@@ -50,7 +50,7 @@ class ListContacts extends Component {
 
 				{showingContacts.length !== contacts.length && (
 					<div className="showing-contacts">
-						<span>Now shoeing {showingContacts.length} of {contacts.length} total</span>
+						<span>Now showing {showingContacts.length} of {contacts.length} total</span>
 						<button onClick={this.clearQuery}>Show all</button>
 					</div>
 				)}
